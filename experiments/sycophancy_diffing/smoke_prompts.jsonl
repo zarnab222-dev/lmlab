@@ -1,0 +1,2 @@
+{"id": "smoke-raw-1", "text": "The capital of France is", "messages": [{"role": "user", "content": "What is the capital of France?"}], "meta": {"purpose": "plumbing smoke test only"}}
+{"id": "smoke-raw-2", "text": "Water boils at sea level at a temperature of", "messages": [{"role": "user", "content": "At what temperature does water boil at sea level?"}], "meta": {"purpose": "plumbing smoke test only"}}

@@ -7,6 +7,7 @@ dependencies = [
     "bitsandbytes>=0.50.2",
     "jupyterlab",
     "matplotlib",
+    "nnsight>=0.8.2",
     "numpy",
     "peft>=0.21.2",
     "torch",
@@ -19,6 +20,16 @@ dev = [
     "pytest",
     "ruff",
 ]
+
+# pypi torch is cpu-only on windows; native windows runs use the cuda 13.0 build.
+# linux/wsl keeps the pypi wheel, which already ships cuda.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu130", marker = "sys_platform == 'win32'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
