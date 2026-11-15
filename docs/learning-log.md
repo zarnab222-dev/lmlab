@@ -21,3 +21,9 @@ one entry per new concept, per AGENTS.md. Codex writes the entry; the answer is 
   independent evidence than exists, which shrinks the interval. the second half points at a
   real distinction worth keeping: whether the 20 templates are the whole population of interest
   (fixed effects) or a sample of possible phrasings (resample templates).
+- **my correction (verbatim, same day):** "one* instead of 20 / ohhh that makes sense, a template
+  is too homogeneous, i misunderstood the detail there"
+- **Codex: after the correction.** "one effect instead of 20" is the random-effects view: each
+  template has its own effect, and pooling hides how much they disagree, which is the variation
+  the interval must carry. "too homogeneous" names high within-template correlation ρ. no gap
+  remaining on this concept.
