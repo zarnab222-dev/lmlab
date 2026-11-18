@@ -1,0 +1,10 @@
+{
+  "version": "replication-v1",
+  "frozen_at": "2026-11-18, before any real model was scored",
+  "sha256": {
+    "replicate.py": "4680a3ccbb5296ff8c8b2195a48b923838ba800127719914a7772dc98826b1bc",
+    "data/constructed_pairs.tsv": "c8a92b6903dbab7be12ffb5b24ef34d78404fbdc49b74236e18dffb13ab3614b",
+    "data/habitual_pairs.tsv": "8c33cca4854357d250d82069c24c351cd6feb863b03391fbcaa9461f72b0fb79",
+    "data/favorability.json": "50c74d0c9c407df9d9dc591f0434b75fd7f0f58bd77b597375e3ace3905dc661"
+  }
+}

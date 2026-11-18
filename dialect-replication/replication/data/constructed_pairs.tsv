@@ -1,0 +1,34 @@
+# aae	sae	feature
+# 30 single-feature minimal pairs, WRITTEN BY CLAUDE (Nov 18, 2026) from AAE features that are widely documented in the linguistics literature.
+# not native-speaker text and not checked sentence by sentence against a source. review before running.
+# design rule: the SAE side changes only what the feature changes; no added adverbs like "usually".
+she working late tonight	she's working late tonight	copula_absence
+they at the store right now	they're at the store right now	copula_absence
+he tired after work	he's tired after work	copula_absence
+we ready to go	we're ready to go	copula_absence
+you too funny	you're too funny	copula_absence
+my brother in Atlanta this week	my brother is in Atlanta this week	copula_absence
+she work at the hospital	she works at the hospital	3sg_s_absence
+he drive his mom to church on Sundays	he drives his mom to church on Sundays	3sg_s_absence
+my sister live in Houston	my sister lives in Houston	3sg_s_absence
+it look like rain today	it looks like rain today	3sg_s_absence
+I don't need no help with that	I don't need any help with that	negative_concord
+nobody never told me nothing	nobody ever told me anything	negative_concord
+she can't find her keys nowhere	she can't find her keys anywhere	negative_concord
+we didn't see nobody there	we didn't see anybody there	negative_concord
+he ain't coming tonight	he isn't coming tonight	aint
+I ain't seen that movie yet	I haven't seen that movie yet	aint
+she ain't tell me about it	she didn't tell me about it	aint
+that ain't my car	that isn't my car	aint
+I done finished my homework	I have finished my homework	completive_done
+she done left for work	she has left for work	completive_done
+we finna eat dinner	we're about to eat dinner	finna
+I'm finna call my mom	I'm about to call my mom	finna
+it's a lot of people outside	there are a lot of people outside	existential_it
+it's a new store on my street	there's a new store on my street	existential_it
+they was at the game last night	they were at the game last night	was_leveling
+we was just talking about you	we were just talking about you	was_leveling
+that's my cousin car	that's my cousin's car	possessive_s_absence
+I'm going to my grandma house	I'm going to my grandma's house	possessive_s_absence
+what you doing later	what are you doing later	aux_absence_question
+why he leaving so early	why is he leaving so early	aux_absence_question
